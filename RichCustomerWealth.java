@@ -1,6 +1,7 @@
 /**
  *
  */
+import java.lang.Math.*;
 class RichCustomerWealth {
 
 	public static void main(String[] args)
@@ -26,10 +27,12 @@ class RichCustomerWealth {
                 sum = sum+accounts[r][c];
             }
 
-            if(sum > max)
+          /*  if(sum > max)
             {
                 max = sum;
             }
+	    */
+	    max= Math.max(sum,max);
             sum=0;
         }
         return max;
