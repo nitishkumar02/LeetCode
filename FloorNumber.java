@@ -12,7 +12,7 @@ class bs
 		int target = 11;
 		int index = binSearch(arr,target);
 		
-		System.out.println("Celing Element found :"+ arr[index]);
+		System.out.println("Floor Element found :"+ arr[index]);
 		
 
 		
