@@ -1,5 +1,5 @@
 /*
-*https://nados.io/question/pattern-4?zen=true
+* https://nados.io/question/pattern-5?zen=true
 */
 
 import java.util.*;
