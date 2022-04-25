@@ -53,7 +53,7 @@ import java.util.*;
 		   //increase the multipler
 		   multipler = multipler * 10;
 		   
-	   }while(rem1!=0 || rem2!=0);
+	   } while(n1!=0 ||  n2!=0 || extQuotient!=0);
 	   
 	   return convdigit;
    }
